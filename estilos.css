@@ -682,7 +682,11 @@ h2 span {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 35px;
+  gap: 20px;
+  img{
+    width: 200px;
+    margin: auto;
+  }
 }
 
 .llamado .sobrelinea {
@@ -899,7 +903,10 @@ h2 span {
   .pie-interior {
     align-items: flex-start;
     flex-direction: column;
-    gap: 12px;
+    gap: 10px;
+  }
+  .pie-interior p{
+    text-align: justify;
   }
 }
 

@@ -683,7 +683,8 @@ h2 span {
   align-items: center;
   justify-content: space-between;
   gap: 20px;
-  img{
+
+  img {
     width: 200px;
     margin: auto;
   }
@@ -898,6 +899,17 @@ h2 span {
   .llamado-interior {
     align-items: flex-start;
     flex-direction: column;
+
+    img {
+      max-width: 100%;
+    }
+
+    div h2 {
+      max-width: 100%;
+      overflow-wrap: break-word;
+      word-wrap: break-word;
+      font-size: clamp(1.2rem, 5vw, 2rem);
+    }
   }
 
   .pie-interior {
@@ -905,7 +917,8 @@ h2 span {
     flex-direction: column;
     gap: 10px;
   }
-  .pie-interior p{
+
+  .pie-interior p {
     text-align: justify;
   }
 }
